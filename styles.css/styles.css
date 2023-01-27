@@ -1,7 +1,11 @@
+body{
+    margin: 0;
+}
 .container{
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(190, 191, 192);
+    background-color: #F5F5F5;
+    padding: 0px 15px;
 }
 .main-nav{
     display: flex;
@@ -14,6 +18,23 @@
 .nav__item{
     margin: 0px 10px;
 }
+.nav__link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: black;
+}
+.nav_first{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 18px;
+}
 .nav__item:first-child{
     margin-right: 44px;
     margin-left:0;
@@ -21,18 +42,48 @@
 .nav__item:last-child{
     margin-right: 0;
 }
+.title{
+    margin-bottom: 30px;
+   
+}
+.title__line{
+    display: inline-block;
+    min-width: 100px;
+    min-height: 8px;
+    background: black;
+    }
+.title__header{
+    display: inline-block;
+    vertical-align: 15px;
+    margin-left: 13px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap:20px;
+    justify-content: space-between;
+    column-gap: 30px;
 }
-.col__img{
-    max-width: 100%;
-}
+
 .col{
     max-width: 270px;
     border: 1px solid rgb(108, 108, 108);
     border-radius: 12px;
     overflow: hidden;
-    }
+    margin-bottom: 30px;
+
+}
+.col__img{
+    max-width: 100%;
+}
+.col__line{
+    margin: 12px 0px 12px 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px; 
+}
+.col__last{
+    vertical-align: 10px;
+    margin-left: 12px;
+}
