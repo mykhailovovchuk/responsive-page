@@ -1,0 +1,11 @@
+@media (min-width:992px) {
+.container{
+    max-width: 971px;
+}
+.row {
+    justify-content: flex-start;
+}
+.col{
+    max-width: 298px;
+}
+}
