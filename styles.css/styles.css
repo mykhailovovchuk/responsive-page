@@ -11,11 +11,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.nav{
-    display: flex;
-}
+
 .nav__item{
     margin: 0px 10px;
+    display: inline-block;
 }
 .nav__link{
     font-family: 'Ubuntu';
@@ -27,12 +26,12 @@ body{
     text-decoration: none;
     color: black;
 }
-.nav_first{
+.nav__link_first{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
-    line-height: 18px;
+    
 }
 .nav__item:first-child{
     margin-right: 44px;
@@ -53,8 +52,12 @@ body{
     }
 .title__header{
     display: inline-block;
-    vertical-align: 15px;
+    vertical-align: 10px;
     margin-left: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
 }
 .row{
     display: flex;
