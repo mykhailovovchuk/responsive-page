@@ -4,7 +4,6 @@ body{
 .container{
     max-width: 1200px;
     margin: auto;
-    background-color: #F5F5F5;
     padding: 0px 15px;
 }
 .main-nav{
@@ -43,7 +42,7 @@ body{
     margin-right: 0;
 }
 .title{
-    margin:30px 0px;
+    margin:15px 0px;
    
 }
 .title__line{
@@ -61,7 +60,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    column-gap: 30px;
 }
 
 .col{
